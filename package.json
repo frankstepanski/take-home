@@ -1,0 +1,35 @@
+{
+  "name": "unit2-unit3-web-takehome",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "react": "parcel src/index.html",
+    "api": "node server.js",
+    "test": "cypress open"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "cypress": "^4.10.0",
+    "eslint": "^7.4.0",
+    "eslint-plugin-react": "^7.20.3",
+    "less": "^3.12.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BloomInstituteOfTechnology/Unit2-Unit3-Web-TakeHome.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BloomInstituteOfTechnology/Unit2-Unit3-Web-TakeHome/issues"
+  },
+  "homepage": "https://github.com/BloomInstituteOfTechnology/Unit2-Unit3-Web-TakeHome#readme"
+}
